@@ -16,8 +16,7 @@ or 12345678 seconds since the epoch.<br>
 or 87654321 seconds since the epoch.<br>
 
 `./settimes --help` or `./settimes -h` or `./settimes`<br>
-`To set the time the file was last accessed, use the -a flag and specify the number of seconds since the epoch you wish to set the time to.
-For the time the file was last modified, do the same with the -m flag.
-To see when the file was last accessed and modified, only enter the file/directory name as an argument.
+To set the time the file was last accessed, use the -a flag and specify the number of seconds since the epoch you wish to set the time to.<br>
+For the time the file was last modified, do the same with the -m flag.<br>
+To see when the file was last accessed and modified, only enter the file/directory name as an argument.<br>
 Example usage: settimes -a <last access time in seconds> -m <last modified time in seconds> <filename>
-`
