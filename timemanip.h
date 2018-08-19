@@ -2,8 +2,8 @@
 bool representsTime(char *string) {
     char *ptr;
     long stringAsLong = strtol(string, &ptr, 10);
-    //time_t should be a signed 32 bit int
-    if(strcmp(ptr, "") == 0 && stringAsLong <= 0x7FFFFFFF) {
+    //we're casting an int to a time_t so it should be a signed 32 bit int
+    if(strcmp(ptr, "") == 0 && (int)0x80000000 <= stringAsLong && stringAsLong <= 0x7FFFFFFF) {
         return true;    
     }
     else {
