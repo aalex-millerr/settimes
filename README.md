@@ -2,7 +2,7 @@
 Settimes is a tool which lets you modify the timestamps associated with when an inode was last accessed and when it was last modified, or to just see those times. Use the -a flag and a valid signed 32-bit integer to set the time the inode was last accessed, and do the same with the -m flag for the time it was last modified. Call the program with no arguments to receive a help message.
 
 # build
-Building is pretty simple, just cd in to the project's directory and execute `make`
+Building is pretty simple, just `cd` in to the project's directory and execute `make`
 
 # examples
 
