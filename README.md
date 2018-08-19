@@ -6,7 +6,7 @@ Settimes is a tool which lets you modify the timestamps associated with when an 
 `./settimes -a 12345678 -m 87654321 testfile` 
 sets the last time the file was accessed to 12345678 seconds after the epoch, and the last time it was modified to 87654321 seconds after the epoch.
 
-`./settimes testfile`
+`./settimes testfile`<br>
 'testfile' was last accessed at Sat May 23 14:21:18 1970<br>
 or 12345678 seconds since the epoch.<br>
 'testfile' was last modified at Wed Oct 11 05:25:21 1972<br>
