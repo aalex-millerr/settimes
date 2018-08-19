@@ -3,10 +3,10 @@ Settimes is a tool which lets you modify the timestamps associated with when an 
 
 # examples
 
-./settimes -a 12345678 -m 87654321 testfile 
+`./settimes -a 12345678 -m 87654321 testfile` 
 sets the last time the file was accessed to 12345678 seconds after the epoch, and the last time it was modified to 87654321 seconds after the epoch.
 
-./settimes testfile
+`./settimes testfile`
 
 'testfile' was last accessed at Sat May 23 14:21:18 1970
 
