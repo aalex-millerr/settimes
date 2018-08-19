@@ -14,3 +14,10 @@ sets the last time the inode was accessed to 12345678 seconds after the epoch, a
 or 12345678 seconds since the epoch.<br>
 'testfile' was last modified at Wed Oct 11 05:25:21 1972<br>
 or 87654321 seconds since the epoch.<br>
+
+`./settimes --help` or `./settimes -h` or `./settimes`<br>
+`To set the time the file was last accessed, use the -a flag and specify the number of seconds since the epoch you wish to set the time to.
+For the time the file was last modified, do the same with the -m flag.
+To see when the file was last accessed and modified, only enter the file/directory name as an argument.
+Example usage: settimes -a <last access time in seconds> -m <last modified time in seconds> <filename>
+`
